@@ -151,4 +151,4 @@ npx playwright show-report
 ```
 
 ## Próximos Pasos
-Aprender patrones formales como POM o ScreenToPlay que siguen estos mismos principios de manera estandarizada.
+Aprender patrones formales como POM o ScreenToPlay que siguen estos mismos principios de manera estandarizada

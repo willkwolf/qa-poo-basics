@@ -4,19 +4,24 @@
   "description": "Tarea de Modulo 3 del QA: Diseño propio de pruebas",
   "main": "index.js",
   "scripts": {
-  "test": "npx playwright test tests",
-  "test:headed": "npx playwright test tests --headed",
-  "test:debug": "npx playwright test tests --debug",
-  "test:report": "npx playwright show-report",
-  "test:allure": "npx allure generate ./allure-results --clean && npx allure open"
-},
+    "test": "npx playwright test tests",
+    "test:headed": "npx playwright test tests --headed",
+    "test:debug": "npx playwright test tests --debug",
+    "test:report": "npx playwright show-report",
+    "test:allure": "npx allure generate ./allure-results --clean && npx allure open",
+    "test:random-no-repeat": "npx playwright test -g \"Debe validar productos con selector aleatorio sin repetición\"",
+    "test:random-no-repeat:headed": "npx playwright test -g \"Debe validar productos con selector aleatorio sin repetición\" --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.55.0",
-    "@types/node": "^24.5.2",
+    "@types/node": "^24.7.2",
     "allure-commandline": "^2.34.1",
-    "allure-playwright": "^3.4.1"
+    "allure-playwright": "^3.4.1",
+    "typescript": "^5.9.3"
   }
 }
+
+
