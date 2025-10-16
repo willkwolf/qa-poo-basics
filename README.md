@@ -146,8 +146,7 @@ test('Successful login', async ({ page }) => {
 ## Ejecución
 
 ```bash
-npx playwright test
-npx playwright show-report
+npm run test:random-no-repeat  #Verificacón de que Nombre de Producto y Precio de Producto sea igual Cart
 ```
 
 ## Próximos Pasos
